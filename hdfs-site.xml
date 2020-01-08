@@ -3,4 +3,9 @@
         <name>dfs.replication</name>
         <value>1</value>
     </property>
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>file:///home/app/hdfs/datanode</value>
+        <description>DataNode directory</description>
+    </property>
 </configuration>
