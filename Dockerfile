@@ -14,6 +14,8 @@ RUN yum clean all; \
     yum clean all;
 # update libselinux. see https://github.com/sequenceiq/hadoop-docker/issues/14
 RUN yum update -y libselinux; \
+    yum clean all; \
+    yum update curl; \
     yum clean all;
 
 # passwordless ssh
